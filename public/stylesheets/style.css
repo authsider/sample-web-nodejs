@@ -1,0 +1,18 @@
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.navbar-dark .navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath fill='%23FFF' d='M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z'/%3E%3C/svg%3E");
+}
+
+pre {
+    color: white;
+    background-color: #343a40;
+    border-radius: 4px;
+    padding: 15px;
+}

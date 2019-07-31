@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row my-2">
+        <div class="col-lg-4 text-xs-center">
+            <img src="{{avatar}}" class="mx-auto img-fluid img-circle" alt="avatar">
+        </div>
+
+        <div class="col-lg-8">
+            <h4 class="mt-2">User Profile</h4>
+            <p class="mb-2"><small>This is the content of <code>req.user</code>.</small></p>
+
+            <pre>{{profile}}</pre>
+
+            {{#if _json}}
+                <h4 class="mt-4">Raw JSON</h4>
+                <pre>{{_json}}</pre>
+            {{/if}}
+        </div>
+    </div>
+</div>

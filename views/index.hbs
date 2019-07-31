@@ -1,0 +1,11 @@
+<section class="jumbotron text-center">
+    <div class="container">
+        {{#if user}}
+            <h1 class="jumbotron-heading">You are logged in.</h1>
+            <a href="/logout" class="btn btn-danger my-2">Logout</a>
+        {{else}}
+            <h1 class="jumbotron-heading">You are not logged in.</h1>
+            <a href="/login" class="btn btn-primary my-2">Login</a>
+        {{/if}}
+    </div>
+</section>
